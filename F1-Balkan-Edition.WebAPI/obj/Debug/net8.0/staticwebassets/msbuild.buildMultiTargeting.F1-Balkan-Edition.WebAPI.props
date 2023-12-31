@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\F1-Balkan-Edition.WebAPI.props" />
+</Project>

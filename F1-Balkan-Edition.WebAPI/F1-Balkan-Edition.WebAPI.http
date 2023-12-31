@@ -1,0 +1,6 @@
+@F1_Balkan_Edition.WebAPI_HostAddress = http://localhost:5257
+
+GET {{F1_Balkan_Edition.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,14 @@
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\bin\Debug\net8.0\F1-Balkan-Edition.Infrastructure.deps.json
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\bin\Debug\net8.0\F1-Balkan-Edition.Infrastructure.runtimeconfig.json
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\bin\Debug\net8.0\F1-Balkan-Edition.Infrastructure.dll
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\bin\Debug\net8.0\F1-Balkan-Edition.Infrastructure.pdb
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.csproj.AssemblyReference.cache
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.AssemblyInfoInputs.cache
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.AssemblyInfo.cs
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.dll
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\refint\F1-Balkan-Edition.Infrastructure.dll
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.pdb
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.genruntimeconfig.cache
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\ref\F1-Balkan-Edition.Infrastructure.dll

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1-Balkan-Edition.WebAPI", "F1-Balkan-Edition.WebAPI\F1-Balkan-Edition.WebAPI.csproj", "{2018CE86-8AFC-43E9-B810-E1D2A5B0C188}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B156561D-7A40-4005-BFB7-E56AE271D283} = {B156561D-7A40-4005-BFB7-E56AE271D283}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1-Balkan-Edition.Infrastructure", "F1-Balkan-Edition.Infrastructure\F1-Balkan-Edition.Infrastructure.csproj", "{B156561D-7A40-4005-BFB7-E56AE271D283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2018CE86-8AFC-43E9-B810-E1D2A5B0C188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2018CE86-8AFC-43E9-B810-E1D2A5B0C188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2018CE86-8AFC-43E9-B810-E1D2A5B0C188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2018CE86-8AFC-43E9-B810-E1D2A5B0C188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B156561D-7A40-4005-BFB7-E56AE271D283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B156561D-7A40-4005-BFB7-E56AE271D283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B156561D-7A40-4005-BFB7-E56AE271D283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B156561D-7A40-4005-BFB7-E56AE271D283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B26A0B7-9FF0-40BF-B2E8-3994B12918BE}
+	EndGlobalSection
+EndGlobal
