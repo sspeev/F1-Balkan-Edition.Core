@@ -137,3 +137,4 @@ D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.WebAPI\obj\Debug
 D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.WebAPI\obj\Debug\net8.0\F1-Balkan-Edition.WebAPI.genruntimeconfig.cache
 D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.WebAPI\obj\Debug\net8.0\ref\F1-Balkan-Edition.WebAPI.dll
 D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.WebAPI\obj\Debug\net8.0\F1-Balkan-Edition.WebAPI.sourcelink.json

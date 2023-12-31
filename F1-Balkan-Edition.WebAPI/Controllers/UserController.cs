@@ -31,5 +31,13 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
             await context.SaveChangesAsync();
             return Ok("Added to the Database");
         }
+
+        //[HttpDelete]//Delete from database
+        //public async Task<IActionResult> Delete(int id)
+        //{
+        //    await context.Users
+        //        .FirstOrDefaultAsync(u => u.Id == id)
+                
+        //}
     }
 }

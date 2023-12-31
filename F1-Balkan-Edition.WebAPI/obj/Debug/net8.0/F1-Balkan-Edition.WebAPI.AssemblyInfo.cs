@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("F1-Balkan-Edition.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e86fa4a228fafc7c85d90a7e31325aa8713e8cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("F1-Balkan-Edition.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F1-Balkan-Edition.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
