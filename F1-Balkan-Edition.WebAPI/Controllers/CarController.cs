@@ -14,6 +14,7 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
         public CarController(F1BalkanEditionContext context) => this.context = context;
 
         [HttpGet]//From the database
+        [Route("get/{id}")]
         public async Task<IActionResult> Get(int id)
         {
             var data = await context.Cars
@@ -23,6 +24,7 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
         }
 
         [HttpPost]//To the database
+        [Route("post")]
         public async Task<IActionResult> Post(Car car)
         {
             await context.Cars.AddAsync(car);
