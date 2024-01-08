@@ -16,6 +16,7 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
             this.context = context;
         }
         [HttpGet]//From the database
+        [Route("get/{id}")]
         public async Task<IActionResult> Get(int id)
         {
             var data = await context.Users
@@ -25,19 +26,12 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
         }
 
         [HttpPost]//To the database
+        [Route("post")]
         public async Task<IActionResult> Post(User user)
         {
             await context.Users.AddAsync(user);
             await context.SaveChangesAsync();
             return Ok("Added to the Database");
         }
-
-        //[HttpDelete]//Delete from database
-        //public async Task<IActionResult> Delete(int id)
-        //{
-        //    await context.Users
-        //        .FirstOrDefaultAsync(u => u.Id == id)
-                
-        //}
     }
 }

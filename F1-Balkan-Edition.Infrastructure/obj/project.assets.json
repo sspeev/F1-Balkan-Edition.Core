@@ -4017,19 +4017,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hidde\\.nuget\\packages\\": {}
+    "C:\\Users\\stoya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub-Repositories\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\F1-Balkan-Edition.Infrastructure.csproj",
+      "projectUniqueName": "E:\\GitHubRepos\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\F1-Balkan-Edition.Infrastructure.csproj",
       "projectName": "F1-Balkan-Edition.Infrastructure",
-      "projectPath": "D:\\GitHub-Repositories\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\F1-Balkan-Edition.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\hidde\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub-Repositories\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\obj\\",
+      "projectPath": "E:\\GitHubRepos\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\F1-Balkan-Edition.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\stoya\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHubRepos\\F1-Balkan-Edition.Core\\F1-Balkan-Edition.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hidde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
