@@ -27,3 +27,4 @@ E:\GitHubRepos\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug
 E:\GitHubRepos\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.pdb
 E:\GitHubRepos\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.genruntimeconfig.cache
 E:\GitHubRepos\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\ref\F1-Balkan-Edition.Infrastructure.dll
+D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\obj\Debug\net8.0\F1-Balkan-Edition.Infrastructure.sourcelink.json
