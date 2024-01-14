@@ -27,7 +27,7 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
 
         [HttpPost]//To the database
         [Route("post")]
-        public async Task<IActionResult> Post(User user)
+        public async Task<IActionResult> Post([FromBody] User user)
         {
             await context.Users.AddAsync(user);
             await context.SaveChangesAsync();

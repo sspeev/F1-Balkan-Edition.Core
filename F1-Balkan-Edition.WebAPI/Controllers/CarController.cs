@@ -25,7 +25,7 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
 
         [HttpPost]//To the database
         [Route("post")]
-        public async Task<IActionResult> Post(Car car)
+        public async Task<IActionResult> Post([FromBody] Car car)
         {
             await context.Cars.AddAsync(car);
             await context.SaveChangesAsync();
