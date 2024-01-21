@@ -3,6 +3,7 @@ using F1_Balkan_Edition.Infrastrucure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace F1_Balkan_Edition.Infrastructure.Migrations
 {
     [DbContext(typeof(F1BalkanEditionContext))]
-    partial class F1BalkanEditionContextModelSnapshot : ModelSnapshot
+    [Migration("20240118205956_addedTrackProperty")]
+    partial class addedTrackProperty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,12 +32,6 @@ namespace F1_Balkan_Edition.Infrastructure.Migrations
                         .HasComment("Identificator of the car");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CarBrand")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)")
-                        .HasComment("The brand of the car");
 
                     b.Property<string>("Model")
                         .IsRequired()
@@ -70,10 +67,17 @@ namespace F1_Balkan_Edition.Infrastructure.Migrations
                         .HasColumnType("nvarchar(9)")
                         .HasComment("Lap time formatted: 00:00:00");
 
+                    b.Property<long>("Miliseconds")
+                        .HasColumnType("bigint")
+                        .HasComment("Lap time in miliseconds");
+
+                    b.Property<int>("Rank")
+                        .HasColumnType("int")
+                        .HasComment("Property which will be used in the ranking to sort the users");
+
                     b.Property<string>("Track")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)")
+                        .HasColumnType("nvarchar(max)")
                         .HasComment("This is the track where the lap has been set");
 
                     b.HasKey("Id");

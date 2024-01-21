@@ -3,6 +3,7 @@ using F1_Balkan_Edition.Infrastrucure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace F1_Balkan_Edition.Infrastructure.Migrations
 {
     [DbContext(typeof(F1BalkanEditionContext))]
-    partial class F1BalkanEditionContextModelSnapshot : ModelSnapshot
+    [Migration("20240120173601_nextMigr2")]
+    partial class nextMigr2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

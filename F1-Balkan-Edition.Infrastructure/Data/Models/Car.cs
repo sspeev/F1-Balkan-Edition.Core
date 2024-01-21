@@ -13,17 +13,22 @@ namespace F1_Balkan_Edition.Infrastrucure.Data.Models
         public int Id { get; set; }
 
         /// <summary>
+        /// The brand of the car
+        /// </summary>
+        [MaxLength(20)]
+        [Comment("The brand of the car")]
+        public required string CarBrand { get; set; }
+
+        /// <summary>
         /// The model of the car
         /// </summary>
-        [Required]
         [Comment("The model of the car")]
-        public string Model { get; set; } = null!;
+        public required string Model { get; set; }
 
         /// <summary>
         /// The horsepower of the car
         /// </summary>
-        [Required]
         [Comment("The horsepower of the car")]
-        public string Power { get; set; } = null!;
+        public required string Power { get; set; }
     }
 }
