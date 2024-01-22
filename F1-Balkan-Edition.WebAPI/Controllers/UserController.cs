@@ -16,11 +16,17 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
             this.context = context;
         }
         [HttpGet]//From the database
-        [Route("get/{id}")]
-        public async Task<IActionResult> Get(int id)
+        //[Route("get/{id}")]
+        public async Task<IActionResult> Get()
         {
             var data = await context.Users
-                .FirstOrDefaultAsync(u => u.Id == id);
+                .OrderByDescending(u => u.LapTime)
+                .Select(u => new
+                {
+                    Car = u.Car.CarBrand + u.Car.Model,
+                    u.LapTime,
+                    u.Track
+                }).ToListAsync();
 
             return Ok(JsonConvert.SerializeObject(data));
         }

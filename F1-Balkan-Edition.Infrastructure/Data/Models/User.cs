@@ -13,27 +13,25 @@ namespace F1_Balkan_Edition.Infrastrucure.Data.Models
         [Comment("Identificator of the user")]
         public int Id { get; set; }
 
+        ///// <summary>
+        ///// The name of the racer
+        ///// </summary>
+        //[Comment("The name of the racer")]
+        //public required string Name { get; set; }
+
         /// <summary>
         /// Lap time formatted: 00:00:00
         /// </summary>
-        [Required]
         [MaxLength(9)]
         [Comment("Lap time formatted: 00:00:00")]
-        public string LapTime { get; set; } = null!;
+        public required string LapTime { get; set; }
 
         /// <summary>
-        /// Lap time in miliseconds
+        /// This is the track where the lap has been set
         /// </summary>
-        [Required]
-        [Comment("Lap time in miliseconds")]
-        public long Miliseconds { get; set; }
-
-        /// <summary>
-        /// Property which will be used in the ranking to sort the users
-        /// </summary>
-        [Required]
-        [Comment("Property which will be used in the ranking to sort the users")]
-        public int Rank { get; set; }
+        [MaxLength(100)]
+        [Comment("This is the track where the lap has been set")]
+        public required string Track { get; set; }
 
         /// <summary>
         /// Identificator of the car
@@ -45,9 +43,8 @@ namespace F1_Balkan_Edition.Infrastrucure.Data.Models
         /// <summary>
         /// The car which the user uses
         /// </summary>
-        [Required]
         [Comment("The car which the user uses")]
         [ForeignKey(nameof(CarId))]
-        public Car Car { get; set; } = null!;
+        public required Car Car { get; set; }
     }
 }
