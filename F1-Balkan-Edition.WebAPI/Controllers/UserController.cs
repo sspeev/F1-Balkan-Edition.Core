@@ -3,8 +3,6 @@ using F1_Balkan_Edition.Infrastrucure.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using System.Text;
-using System.Xml.Serialization;
 
 namespace F1_Balkan_Edition.WebAPI.Controllers
 {
@@ -30,8 +28,9 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
                 })
                 .Take(3)
                 .ToListAsync();
+            var serialized = JsonConvert.SerializeObject(data, Formatting.Indented);
 
-            return Ok(JsonConvert.SerializeObject(data));
+            return Ok(serialized);
         }
 
         [HttpPost]//To the database

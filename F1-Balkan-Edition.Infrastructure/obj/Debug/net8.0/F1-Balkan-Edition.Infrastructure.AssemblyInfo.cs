@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("F1-Balkan-Edition.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d689db1d33c55015098fe1f5da3b8da47463fdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a9e41e50573e5252854dcb178b2a5a69ae5394e")]
 [assembly: System.Reflection.AssemblyProductAttribute("F1-Balkan-Edition.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F1-Balkan-Edition.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
