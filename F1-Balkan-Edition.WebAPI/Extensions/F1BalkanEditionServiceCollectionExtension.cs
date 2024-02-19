@@ -12,7 +12,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
         public static IServiceCollection AddApplicationDbContext(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<F1BalkanEditionContext>(options =>
+            services.AddDbContext<NeuroF1RacingDbContext>(options =>
                                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
             return services;

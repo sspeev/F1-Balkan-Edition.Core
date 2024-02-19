@@ -10,10 +10,15 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
     [Route("[controller]")]
     public class CarController : ControllerBase
     {
-        private readonly F1BalkanEditionContext context;
-        public CarController(F1BalkanEditionContext context) => this.context = context;
+        private readonly NeuroF1RacingDbContext context;
+        public CarController(NeuroF1RacingDbContext context) => this.context = context;
 
-        [HttpGet]//From the database
+        /// <summary>
+        /// From the database
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet]
         [Route("get/{id}")]
         public async Task<IActionResult> Get(int id)
         {
@@ -23,7 +28,12 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
             return Ok(JsonConvert.SerializeObject(data));
         }
 
-        [HttpPost]//To the database
+        /// <summary>
+        /// To the database
+        /// </summary>
+        /// <param name="car"></param>
+        /// <returns></returns>
+        [HttpPost]
         [Route("post")]
         public async Task<IActionResult> Post([FromBody] Car car)
         {

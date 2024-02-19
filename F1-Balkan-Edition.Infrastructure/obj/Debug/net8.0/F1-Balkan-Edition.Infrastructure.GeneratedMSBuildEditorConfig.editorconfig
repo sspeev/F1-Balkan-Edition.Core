@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = F1_Balkan_Edition.Infrastructure
-build_property.ProjectDir = E:\GitHubRepos\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\
+build_property.ProjectDir = D:\GitHub-Repositories\F1-Balkan-Edition.Core\F1-Balkan-Edition.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

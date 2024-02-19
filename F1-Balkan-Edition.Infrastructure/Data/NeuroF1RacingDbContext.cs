@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace F1_Balkan_Edition.Infrastrucure.Data
 {
-    public class F1BalkanEditionContext : DbContext
+    public class NeuroF1RacingDbContext : DbContext
     {
-        public F1BalkanEditionContext(DbContextOptions options) : base(options)
+        public NeuroF1RacingDbContext(DbContextOptions options) : base(options)
         {
 
         }

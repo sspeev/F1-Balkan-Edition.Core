@@ -10,8 +10,8 @@ namespace F1_Balkan_Edition.WebAPI.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly F1BalkanEditionContext context;
-        public UserController(F1BalkanEditionContext context)
+        private readonly NeuroF1RacingDbContext context;
+        public UserController(NeuroF1RacingDbContext context)
         {
             this.context = context;
         }

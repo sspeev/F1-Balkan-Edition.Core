@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace F1_Balkan_Edition.Infrastructure.Migrations
 {
-    [DbContext(typeof(F1BalkanEditionContext))]
+    [DbContext(typeof(NeuroF1RacingDbContext))]
     partial class F1BalkanEditionContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

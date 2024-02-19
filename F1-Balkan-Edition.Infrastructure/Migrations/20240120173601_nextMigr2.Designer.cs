@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace F1_Balkan_Edition.Infrastructure.Migrations
 {
-    [DbContext(typeof(F1BalkanEditionContext))]
+    [DbContext(typeof(NeuroF1RacingDbContext))]
     [Migration("20240120173601_nextMigr2")]
     partial class nextMigr2
     {
