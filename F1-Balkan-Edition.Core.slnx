@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="F1-Balkan-Edition.Infrastructure/F1-Balkan-Edition.Infrastructure.csproj" />
+  <Project Path="F1-Balkan-Edition.WebAPI/F1-Balkan-Edition.WebAPI.csproj">
+    <BuildDependency Project="F1-Balkan-Edition.Infrastructure/F1-Balkan-Edition.Infrastructure.csproj" />
+  </Project>
+</Solution>

@@ -1,2 +1,41 @@
-# Auto detect text files and perform LF normalization
+# Normalize text files to LF in the repository
 * text=auto
+
+# Source and configuration files
+*.cs text
+*.csproj text
+*.props text
+*.targets text
+*.slnx text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+*.md text
+*.http text
+*.sql text
+*.cshtml text
+*.razor text
+
+# Shell and scripting files
+*.ps1 text eol=lf
+*.sh text eol=lf
+
+# Windows project files
+*.sln text eol=crlf
+*.user text eol=crlf
+
+# Binary files
+*.dll binary
+*.exe binary
+*.pdb binary
+*.cache binary
+*.db binary
+*.sqlite binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
