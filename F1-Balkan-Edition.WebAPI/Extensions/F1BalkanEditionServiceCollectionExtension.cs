@@ -1,21 +1,17 @@
-﻿using F1_Balkan_Edition.Infrastrucure.Data;
-using Microsoft.EntityFrameworkCore;
+﻿namespace Microsoft.Extensions.DependencyInjection;
 
-namespace Microsoft.Extensions.DependencyInjection
+public static class F1BalkanEditionServiceCollectionExtension
 {
-    public static class F1BalkanEditionServiceCollectionExtension
+    public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
-        public static IServiceCollection AddApplicationServices(this IServiceCollection services)
-        {
-            return services;
-        }
+        return services;
+    }
 
-        public static IServiceCollection AddApplicationDbContext(this IServiceCollection services, IConfiguration configuration)
-        {
-            services.AddDbContext<NeuroF1RacingDbContext>(options =>
-                                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+    public static IServiceCollection AddApplicationDbContext(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.AddDbContext<NeuroF1RacingDbContext>(options =>
+                            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-            return services;
-        }
+        return services;
     }
 }
